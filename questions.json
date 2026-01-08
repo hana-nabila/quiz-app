@@ -1,0 +1,48 @@
+{
+  "Python": {
+    "Easy": [
+      {"q": "Apa output dari print(2 ** 3)?", "options": ["6", "8", "9", "5"], "a": 1, "exp": "2 pangkat 3 adalah 8."},
+      {"q": "Simbol mana yang digunakan untuk komentar di Python?", "options": ["//", "/*", "#", "--"], "a": 2, "exp": "# digunakan untuk komentar satu baris."},
+      {"q": "Tipe data untuk menyimpan nilai True atau False adalah?", "options": ["int", "string", "boolean", "float"], "a": 2, "exp": "Boolean adalah tipe data logika."},
+      {"q": "Fungsi untuk menampilkan teks ke layar adalah?", "options": ["input()", "print()", "output()", "display()"], "a": 1, "exp": "print() digunakan untuk output standar."},
+      {"q": "Manakah cara membuat variabel yang benar di Python?", "options": ["var x = 5", "x := 5", "x = 5", "int x = 5"], "a": 2, "exp": "Python tidak memerlukan deklarasi tipe data formal."}
+    ],
+    "Medium": [
+      {"q": "Metode mana yang menghapus elemen terakhir dari list?", "options": ["pop()", "remove()", "delete()", "discard()"], "a": 0, "exp": "pop() menghapus dan mengembalikan elemen terakhir."},
+      {"q": "Apa hasil dari 'abc' * 2?", "options": ["abcabc", "abc2", "abc abc", "Error"], "a": 0, "exp": "Operator * pada string melakukan repetisi."},
+      {"q": "Bagaimana cara mengambil 3 karakter pertama dari string 'Python'?", "options": ["s[0:3]", "s[1:3]", "s[:2]", "s[3:]"], "a": 0, "exp": "Slicing [0:3] mengambil indeks 0, 1, dan 2."},
+      {"q": "Apa kegunaan dari 'elif' dalam Python?", "options": ["Looping", "Menghapus data", "Percabangan tambahan", "Import module"], "a": 2, "exp": "elif (else if) digunakan untuk pengecekan kondisi berikutnya."},
+      {"q": "Apa output dari len([1, 2, [3, 4]])?", "options": ["2", "3", "4", "Error"], "a": 1, "exp": "List tersebut berisi 3 elemen: 1, 2, dan satu list [3,4]."}
+    ],
+    "Hard": [
+      {"q": "Output dari 0.1 + 0.2 == 0.3?", "options": ["True", "False", "Error", "None"], "a": 1, "exp": "Presisi floating point menghasilkan 0.30000000000000004."},
+      {"q": "Apa itu Decorator di Python?", "options": ["Tipe data baru", "Fungsi yang memodifikasi fungsi lain", "Sistem manajemen database", "Tool untuk desain GUI"], "a": 1, "exp": "Decorator memungkinkan kita membungkus fungsi lain untuk mengubah perilakunya."},
+      {"q": "Manakah tipe data yang bersifat 'immutable'?", "options": ["list", "dictionary", "set", "tuple"], "a": 3, "exp": "Tuple tidak dapat diubah isinya setelah dibuat."},
+      {"q": "Apa output dari: print(type(lambda x: x))?", "options": ["<class 'function'>", "<class 'lambda'>", "<class 'object'>", "Error"], "a": 0, "exp": "Lambda adalah fungsi anonim, tipenya tetap function."},
+      {"q": "Metode __init__ pada class digunakan untuk apa?", "options": ["Menghapus objek", "Inisialisasi atribut objek", "Memanggil fungsi private", "Mengubah tipe data"], "a": 1, "exp": "__init__ adalah constructor yang dijalankan saat objek dibuat."}
+    ]
+  },
+  "Computer Science": {
+    "Easy": [
+      {"q": "1 byte sama dengan berapa bit?", "options": ["4", "8", "16", "32"], "a": 1, "exp": "1 byte standar terdiri dari 8 bit."},
+      {"q": "Apa kepanjangan dari CPU?", "options": ["Central Power Unit", "Central Processing Unit", "Computer Process Unit", "Core Power User"], "a": 1, "exp": "CPU adalah unit pemrosesan pusat komputer."},
+      {"q": "Manakah yang merupakan perangkat input?", "options": ["Monitor", "Printer", "Keyboard", "Speaker"], "a": 2, "exp": "Keyboard memasukkan data ke dalam sistem."},
+      {"q": "Sistem bilangan yang hanya terdiri dari 0 dan 1 disebut?", "options": ["Desimal", "Heksadesimal", "Oktal", "Biner"], "a": 3, "exp": "Biner adalah bahasa dasar komputer."},
+      {"q": "Apa fungsi utama dari RAM?", "options": ["Penyimpanan permanen", "Penyimpanan sementara", "Mengolah grafis", "Penyedia daya"], "a": 1, "exp": "RAM menyimpan data sementara yang sedang diproses."}
+    ],
+    "Medium": [
+      {"q": "Protokol standar untuk mengirim email adalah?", "options": ["HTTP", "FTP", "SMTP", "SNMP"], "a": 2, "exp": "Simple Mail Transfer Protocol digunakan untuk email."},
+      {"q": "Siapa yang dikenal sebagai Bapak Ilmu Komputer?", "options": ["Bill Gates", "Alan Turing", "Steve Jobs", "Mark Zuckerberg"], "a": 1, "exp": "Alan Turing memberikan landasan teori komputer modern."},
+      {"q": "Manakah algoritma pengurutan yang paling efisien (rata-rata)?", "options": ["Bubble Sort", "Insertion Sort", "Quick Sort", "Selection Sort"], "a": 2, "exp": "Quick Sort memiliki kompleksitas O(n log n)."},
+      {"q": "Apa kegunaan utama dari DNS?", "options": ["Enkripsi", "Menerjemahkan nama domain ke IP", "Mempercepat internet", "Firewall"], "a": 1, "exp": "DNS seperti buku telepon internet."},
+      {"q": "Apa kepanjangan dari SQL?", "options": ["Simple Query Language", "Structured Query Language", "System Quick Logic", "Standard Query List"], "a": 1, "exp": "SQL digunakan untuk manajemen database relasional."}
+    ],
+    "Hard": [
+      {"q": "Berapakah nilai desimal dari bilangan biner 1011?", "options": ["9", "10", "11", "12"], "a": 2, "exp": "(1*8)+(0*4)+(1*2)+(1*1) = 11."},
+      {"q": "Apa perbedaan utama antara TCP dan UDP?", "options": ["TCP lebih cepat", "UDP menjamin pengiriman data", "TCP berorientasi koneksi", "UDP hanya untuk teks"], "a": 2, "exp": "TCP melakukan handshake dan menjamin urutan data."},
+      {"q": "Apa arti dari 'O(n)' dalam Big O Notation?", "options": ["Waktu konstan", "Waktu eksponensial", "Waktu linear", "Waktu logaritmik"], "a": 2, "exp": "Waktu eksekusi bertambah sebanding dengan jumlah data."},
+      {"q": "Di layer OSI manakah Router bekerja?", "options": ["Layer 2", "Layer 3", "Layer 4", "Layer 7"], "a": 1, "exp": "Router bekerja di Network Layer (Layer 3)."},
+      {"q": "Apa itu 'Deadlock' dalam Sistem Operasi?", "options": ["Sistem mati total", "Proses saling menunggu sumber daya", "Virus komputer", "Memori penuh"], "a": 1, "exp": "Deadlock terjadi saat dua proses atau lebih terjebak saling menunggu."}
+    ]
+  }
+}
