@@ -52,7 +52,7 @@ This project was created as a **Python GUI application**, focusing on:
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```text
 quiz-app/
