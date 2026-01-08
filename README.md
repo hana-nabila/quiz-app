@@ -52,3 +52,16 @@ This project was created as a **Python GUI application**, focusing on:
 
 ---
 
+## 🗂 Project Structure
+
+```text
+quiz-app/
+├── main.py
+├── questions.json
+├── history.json      # ignored (user-generated data)
+├── screenshots/
+│   ├── home.png
+│   ├── setup.png
+│   ├── quiz.png
+│   ├── result.png
+│   └── review.png
